@@ -6,6 +6,6 @@
    --cookie-secret=$COOKIE_SECRET \
    --cookie-secure=true \
    --provider=github \
-   -github-org="LOKE" \
+   -github-org="$GITHUB_ORG" \
    --client-id=$CLIENT_ID \
    --client-secret=$CLIENT_SECRET

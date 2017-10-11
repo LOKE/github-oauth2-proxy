@@ -7,3 +7,4 @@ Docker image for using oauth2_proxy with Github
 - CLIENT_ID = the Github Client ID
 - CLIENT_SECRET = the Github Client Secret
 - COOKIE_SECRET = cookie secret
+- GITHUB_ORG = the Github org to restrict to
