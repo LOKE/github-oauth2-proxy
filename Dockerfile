@@ -9,7 +9,7 @@ RUN curl -sL -o oauth2_proxy.tar.gz \
   && chmod +x /bin/oauth2_proxy \
   && rm -r oauth2_proxy*
 
-ADD run-proxy.sh /run-proxy.sh
-RUN chmod +x /run-proxy.sh
+ADD run_proxy.sh /run_proxy.sh
+RUN chmod +x /run_proxy.sh
 
-CMD [ "/run-proxy.sh" ]
+CMD [ "/run_proxy.sh" ]
