@@ -7,5 +7,6 @@
    --cookie-secure=true \
    --provider=github \
    -github-org="$GITHUB_ORG" \
+   -github-team="$GITHUB_TEAM" \
    --client-id=$CLIENT_ID \
    --client-secret=$CLIENT_SECRET
